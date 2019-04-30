@@ -1,8 +1,9 @@
 " vundle
 set nocompatible
 filetype off
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+"set rtp+=~/.vim/bundle/Vundle.vim
+set rtp+=~/.vim/bundle/
+call vundle#rc()
 
 " Add all your plugins here (note older versions of Vundle used Bundle instead of Plugin)
 
